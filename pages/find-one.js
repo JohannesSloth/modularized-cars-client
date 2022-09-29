@@ -1,4 +1,5 @@
-import { URL } from "../index.js"
+import { URL } from "../settings.js"
+import { handleHttpErrors } from "../utils.js"
 
 export async function findOne() {
     document.getElementById("car-info").innerText = ""

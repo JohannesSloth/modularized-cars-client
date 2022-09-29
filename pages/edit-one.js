@@ -1,4 +1,5 @@
-import { URL } from "../index.js"
+import { URL } from "../settings.js"
+import { handleHttpErrors } from "../utils.js"
 
 export function editOne() {
     document.getElementById("btn-find-car-to-edit").onclick = findCar

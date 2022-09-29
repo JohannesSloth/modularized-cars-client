@@ -1,4 +1,4 @@
-import { URL } from "../index.js"
+import { URL } from "../settings.js"
 
 export function addOne() {
     document.getElementById("bnt-submit-new-car").onclick = makeNewCar

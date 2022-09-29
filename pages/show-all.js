@@ -1,4 +1,4 @@
-import { URL } from "../index.js"
+import { URL } from "../settings.js"
 
 //We will add errorhandling in the class
 export async function showAll() {

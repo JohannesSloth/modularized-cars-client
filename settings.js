@@ -1,0 +1,1 @@
+export const URL = "https://johannes-cars-r-us.azurewebsites.net/api/cars/"

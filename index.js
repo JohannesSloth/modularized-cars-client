@@ -4,7 +4,6 @@ import { findOne } from "./pages/find-one.js";
 import { addOne } from "./pages/add-one.js";
 import { editOne } from "./pages/edit-one.js";
 
-export const URL = "https://johannes-cars-r-us.azurewebsites.net/api/cars/"
     let lastVisibleContent = document.getElementById("div-info");
     document.getElementById("btns").onclick = handleButtonClick
     //Handle the switching between the different views
